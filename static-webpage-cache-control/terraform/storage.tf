@@ -20,6 +20,15 @@ resource "azurerm_storage_blob" "sthtml" {
   cache_control          = "no-cache"
 }
 
+resource "azurerm_storage_blob" "stfaq" {
+  name                   = "faq.html"
+  storage_account_name   = azurerm_storage_account.st.name
+  storage_container_name = "$web"
+  type                   = "Block"
+  content_type           = "text/html"
+  source                 = "../webfiles/faq.html"
+}
+
 resource "azurerm_storage_blob" "stjs" {
   name                   = "hello_world.js"
   storage_account_name   = azurerm_storage_account.st.name
