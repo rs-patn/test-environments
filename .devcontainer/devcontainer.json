@@ -42,7 +42,7 @@
 		"hashicorp.terraform",
 		"ms-vscode.azurecli",
 		"ms-azuretools.vscode-azureterraform",
-		"ms-azuretools.vscode-docker"
+		"ms-azuretools.vscode-azurestaticwebapps"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

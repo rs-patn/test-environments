@@ -1,1 +1,1 @@
-console.log('Hello world, check me out, I am in the console.');
+console.log('Hello world, check me out, I am in the console. You see the change?');
